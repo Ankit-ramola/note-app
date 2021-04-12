@@ -1,0 +1,11 @@
+<div class="container">
+<div class="contentDiv">
+    <h1 class="my-3 headerStyle">Add Todo</h1>
+        <textarea #inputValue name="note" class="form-control mb-2" placeholder="enter note..."></textarea>
+    <div>
+        <button type="button" class="btn btn-light mr-3" (click)="removeNote()">Cancel</button>
+        <button routerLink="/" type="button" class="btn btn-success" (click)="addNote()">Add</button>
+    </div>
+
+</div>
+</div>

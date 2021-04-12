@@ -1,0 +1,44 @@
+.container{
+    width: 500px;
+    height: 650px;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid;
+    border-radius: 8px;
+    border-color: cadetblue;
+}
+.headerDiv{
+    text-align: center;
+}
+.searchNote{
+    width: 70%!important;
+    margin-right: 10px;
+    display: inline;
+}
+.addTodoButton{
+    margin-top: -5px;
+}
+.contentDiv{
+    margin-top: 20px;
+}
+.listCss{
+    height: 42px;
+    border-radius: 4px;
+    background: lavender;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.deleteButton{
+    padding: 1px 6px;
+    float: right;
+    margin-top: 3px;
+}
+.headerStyle{
+    background: cadetblue;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    height: 50px;
+    padding: 5px;
+}
